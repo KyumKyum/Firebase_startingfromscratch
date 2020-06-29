@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang = "ko">
+    <head>
+            <!-- The core Firebase JS SDK is always required and must be listed first -->
+        <script src="https://www.gstatic.com/firebasejs/7.15.5/firebase-app.js"></script>
+        <script src="https://www.gstatic.com/firebasejs/7.15.5/firebase-firestore.js"></script>
+
+        <link rel="stylesheet" 
+        type = "text/css"
+        href="style.css">
+
+    </head>
+    <body>
+
+        <h1>Practicing Firebase</h1>
+
+        <ul id = "list"></ul>
+
+    </body>
+
+
+
+    <script>
+    // Your web app's Firebase configuration
+        var firebaseConfig = {
+            apiKey: "AIzaSyCj6DS-8i6MuZTBpRt-8wUtClKw70SDZRw",
+            authDomain: "firestroe-tutorial.firebaseapp.com",
+            databaseURL: "https://firestroe-tutorial.firebaseio.com",
+            projectId: "firestroe-tutorial",
+            storageBucket: "firestroe-tutorial.appspot.com",
+            messagingSenderId: "900550821261",
+            appId: "1:900550821261:web:bda4f201d7bafe103fe9c4",
+            measurementId: "G-DQHB60BG24"
+        };
+        // Initialize Firebase
+        firebase.initializeApp(firebaseConfig);
+
+        const db = firebase.firestore();
+
+    </script>
+    <script src = "app.js"></script>
+
+
+</html>

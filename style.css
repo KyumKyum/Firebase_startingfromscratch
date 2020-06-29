@@ -1,0 +1,16 @@
+body{
+    background-color: #333300;
+    color: #FFFFFF;
+}
+
+h1 {
+    color: #FFFF33;
+    text-align: center;
+    font: italic 200% fantasy;
+}
+
+#list {
+    background-color: #FFFFFF;
+    list-style-type: none;
+    color: black;
+}
